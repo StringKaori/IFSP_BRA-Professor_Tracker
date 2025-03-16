@@ -1,5 +1,6 @@
 import { SafeAreaView, StatusBar, Text, StyleSheet } from "react-native";
 import { SearchBar } from "./Components/SearchBar";
+import { ProfessorCard } from "./Components/ProfessorCard";
 
 const SearchProfessorScreen = () => {
 
@@ -10,6 +11,7 @@ const SearchProfessorScreen = () => {
             <Text>
                 Digite na barra acima o nome do professor que deseja localizar
             </Text>
+            <ProfessorCard name={"Wilson Vendramel"} currentRoom={"A407"}/>
         </SafeAreaView>
     );
 
@@ -19,6 +21,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
+        backgroundColor: '#fff'
     },
 });
 
