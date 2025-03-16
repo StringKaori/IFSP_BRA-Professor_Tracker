@@ -1,0 +1,1 @@
+export { SearchProfessorScreen } from  './SearchProfessorScreen'
